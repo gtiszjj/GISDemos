@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="user_title">员工信息</string>
+    <string name="user_name">姓名：</string>
+    <string name="user_num">卡号：</string>
+    <string name="user_dep">岗位：</string>
+    <string name="user_level">星级：</string>
+</resources>

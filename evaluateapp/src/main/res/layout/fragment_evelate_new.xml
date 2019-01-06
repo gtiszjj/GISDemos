@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/jbshape"
+    tools:context="com.example.evaluateapp.EvelateNew">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="32sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_gravity="top"
+        android:text="@string/hello_blank_fragment" />
+
+    <GridView
+        android:id="@+id/gvEvaluate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnWidth="100dp"
+        android:numColumns="3"
+        android:layout_gravity="center"
+        android:stretchMode="spacingWidthUniform"></GridView>
+
+</FrameLayout>

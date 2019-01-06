@@ -1,0 +1,103 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/jbshape"
+    tools:context="com.example.evaluateapp.EvaluateMain">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/hello_blank_fragment"
+        android:textColor="#FFFFFF"
+        android:textSize="32dp" />
+
+    <GridLayout
+        android:id="@+id/gridMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="4"
+        android:foregroundGravity="center"
+        android:orientation="horizontal"
+        android:rowCount="2">
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_rowWeight="1"
+            android:background="@drawable/ic_evaluatebtn"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/fcmy" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="非常满意"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_rowWeight="1"
+            android:background="@drawable/ic_evaluatebtn"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/my" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="满意"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_rowWeight="1"
+            android:background="@drawable/ic_evaluatebtn"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/yb" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="一般"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </GridLayout>
+
+</FrameLayout>
