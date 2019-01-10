@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_loadshp"
+        android:icon="@mipmap/ic_launcher"
+        android:title="加载"
+        app:showAsAction="ifRoom|withText"></item>
+    <item
+        android:id="@+id/menu_identify"
+        android:icon="@mipmap/ic_launcher"
+        android:title="识别"
+        app:showAsAction="ifRoom|withText"></item>
+    <item
+        android:id="@+id/menu_label"
+        android:checkable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:title="标注"
+        app:showAsAction="ifRoom|withText"></item>
+</menu>
